@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Animated Grid Background -->
+    <div class="background-grid"></div>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="logo"><img src="" alt="" class="imglogo">SKYHUB</h1>
+            <div id="nav-links" class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="menu-button">
+                &#9776;
+            </button>
+        </nav>
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu">
+            <a href="#about" class="mobile-nav-item">About</a>
+            <a href="#skills" class="mobile-nav-item">Skills</a>
+            <a href="#experience" class="mobile-nav-item">Experience</a>
+            <a href="#projects" class="mobile-nav-item">Projects</a>
+            <a href="#education" class="mobile-nav-item">Education</a>
+            <a href="#contact" class="mobile-nav-item">Contact</a>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Hero/About Section: Visual (Left) | Content (Right) -->
+        <section id="about" class="section-base">
+            <div class="hero-split-container">
+
+                <!-- Conceptual Visual: Pulsing Wireframe Core (Photo Section) -->
+                <!-- Note: Display order is Visual (Left), Content (Right) due to CSS row-reverse -->
+                <div class="hero-visual animate-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="wireframe-core">
+                        <div class="core-lines"></div>
+                        <span class="core-text"><img src="akash.png.png" class="akphoto" alt=""></span>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="hero-content-wrapper animate-on-scroll" style="transition-delay: 0.2s;">
+                    <p class="greeting" style="color: var(--primary-accent); font-weight: 700; font-size: 30px;"> Hi, I
+                        AM </p>
+                    <h2 class="hero-title">
+                        AKASH BUDUKHALE
+                    </h2>
+                    <p class="hero-subtitle">
+                        Full-Stack Developer | Building Scalable Web Applications
+                    </p>
+                    <p class="hero-description" style="color: var(--text-muted);">
+                        Full-Stack Developer with strong knowledge of HTML, CSS, JavaScript, React.js, Node.js,
+                        Express.js, and MongoDB. Capable of building both frontend interfaces and backend APIs.
+                        Enthusiastic about learning new technologies and developing user-friendly, efficient, and
+                        scalable web applications.
+                    </p>
+                    <!-- CTA updated to VIEW RESUME and links to the Education section -->
+                    <a href="resume 45.pdf" class="cta-button" target="_blank">
+
+                        <span style="font-size: 1.2em;">&#x2192;</span> VIEW RESSUME
+                    </a>
+                    <!-- profile link -->
+
+                    <div class="social-links animate-on-scroll" style="transition-delay: 0.3s;">
+                        <a href="https://www.linkedin.com/in/akash-budukhale-23a1ab372/" target="_blank"
+                            class="social-icon" aria-label="LinkedIn">
+                            <span style="color: #0077b5; font-size: 1.25rem;">in</span>
+                        </a>
+                        <a href="https://github.com/Akash-budukhale45" target="_blank" class="social-icon"
+                            aria-label="GitHub">
+                            <span style="color: #909090; font-size: 1.5rem;"><img
+                                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                    alt="github logo" class="githublogo"></span>
+                        </a>
+                        <a href="mailto:akashbudukle@gmail.com" class="social-icon" aria-label="Email">
+                            <span style="color: var(--primary-accent); font-size: 1.5rem;">&#x2709;</span>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        </div>
+        </div>
+        </section>
+
+        <!-- Skills Section: Separate Boxes for Each Language -->
+        <section id="skills" class="section-base">
+            <div class="main-container">
+                <h3 class="section-title animate-on-scroll">DEVELOPER <span>SKILLS</span></h3>
+
+                <div class="skills-grid">
+                    <!-- Skill 1: HTML -->
+                    <div class="node-card animate-on-scroll">
+                        <span class="node-icon"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                                alt="HTML5 Logo" width="60" height="60">
+                        </span>
+                        <p class="node-title">HTML</p>
+                        <p class="node-subtitle">Hypertext Markup</p>
+                    </div>
+                    <!-- Skill 2: CSS -->
+                    <div class="node-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <span class="node-icon"> <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                                alt="CSS3 Logo" style="width: 60px; height: 60px;">
+                        </span>
+                        <p class="node-title">CSS</p>
+                        <p class="node-subtitle">Cascading Styles</p>
+                    </div>
+                    <!-- Skill 3: JavaScript -->
+                    <div class="node-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <span class="node-icon"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+                                alt="JavaScript Logo" width="60" height="60">
+                        </span>
+                        <p class="node-title">JavaScript</p>
+                        <p class="node-subtitle">Logic Engine</p>
+                    </div>
+                    <!-- Skill 4: React -->
+                    <div class="node-card animate-on-scroll" style="transition-delay: 0.3s;">
+                        <span class="node-icon"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                                alt="React Logo" width="60" height="60">
+                        </span>
+                        <p class="node-title">React</p>
+                        <p class="node-subtitle">Frontend Library</p>
+                    </div>
+                    <!-- Skill 5: Node -->
+                    <div class="node-card animate-on-scroll" style="transition-delay: 0.4s;">
+                        <span class="node-icon"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+                                alt="Node.js Logo" width="60" height="60">
+                        </span>
+                        <p class="node-title">Node.js</p>
+                        <p class="node-subtitle">Server Runtime</p>
+                    </div>
+                    <!-- Skill 6: Python -->
+                    <div class="node-card animate-on-scroll" style="transition-delay: 0.5s;">
+                        <span class="node-icon"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                                alt="Python Logo" width="60" height="60">
+                        </span>
+                        <p class="node-title">Python</p>
+                        <p class="node-subtitle">Data Processing</p>
+                    </div>
+                    <!-- Skill 7: Java -->
+                    <div class="node-card animate-on-scroll" style="transition-delay: 0.6s;">
+                        <span class="node-icon"><img
+                                src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+                                alt="Java Logo" width="60" height="60">
+                        </span>
+                        <p class="node-title">Java</p>
+                        <p class="node-subtitle">Enterprise Core</p>
+                    </div>
+                    <!-- Skill 8: Database -->
+                    <div class="node-card animate-on-scroll" style="transition-delay: 0.7s;">
+                        <span class="node-icon">
+                            <img src="https://img.icons8.com/color/96/000000/database.png" alt="Database Icon"
+                                width="60" height="60">
+                        </span>
+                        <p class="node-title">Database</p>
+                        <p class="node-subtitle">SQL/NoSQL Storage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-base">
+            <div class="main-container">
+                <h3 class="section-title animate-on-scroll"><span>EXPERIENCE</span></h3>
+
+                <div class="exp-timeline">
+
+                    <!-- Item 1 -->
+                    <div class="exp-item left">
+                        <div class="exp-card">
+                            <span class="exp-date">2025 – PRESENT</span>
+                            <h3 class="exp-title">Java Full-Stack Internship</h3>
+                            <p class="exp-company">Swami Logipul Infotech Pvt. Ltd., Pune</p>
+                            <p class="exp-desc">
+                                Working on live full-stack applications using Java, Spring Boot,
+                                REST APIs, SQL, React/modern UI, and deployment processes.
+                                Gained real-world experience in scalable app development.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="exp-item right">
+                        <div class="exp-card">
+                            <span class="exp-date">2025 JUN – OCT</span>
+                            <h3 class="exp-title">Python Programming Internship</h3>
+                            <p class="exp-company">YBI Foundation, New Delhi</p>
+                            <p class="exp-desc">
+                                Built automation tools, API-based apps, and Python scripts using
+                                powerful libraries. Worked on database handling, data processing,
+                                and backend logic.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--  Projects Section -->
+
+        <section class="projects-section">
+            <h1 class="title">MY PROJECT</h1>
+            <div class="projects-container"></div>
+        </section>
+
+
+
+        <section id="education" class="edu-pro">
+
+            <!-- EDUCATION SECTION -->
+
+            <h3 class="section-title animate-on-scroll"><span>EDUCATION</span></h3>
+            <div class="edu-line-container">
+
+                <div class="edu-pro-card">
+                    <h4>B.E. Computer Science</h4>
+                    <p class="edu-year">2022 - 2026 • CGPA 7.3</p>
+                    <p class="edu-mini">Padm. DR. V.B. Kolte College of Engineering</p>
+                </div>
+
+                <div class="edu-pro-card">
+                    <h4>HSC (Science)</h4>
+                    <p class="edu-year">2021 - 2022 • 65.17%</p>
+                    <p class="edu-mini">Swa. Ashok Phadake Junior College</p>
+                </div>
+
+                <div class="edu-pro-card">
+                    <h4>SSC</h4>
+                    <p class="edu-year">2019 - 2020 • 73.60%</p>
+                    <p class="edu-mini">Swa. Ashok Phadake Vidyalay</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION  -->
+         <h3 class="section-title animate-on-scroll"><span>CONTACT US</span></h3>         
+
+        <section id="contact" class="blueprint-section">
+            <div class="blueprint-container">
+
+                <!-- Left: Contact Form -->
+                <div class="contact-form-card bp-float">
+                    <h2 class="bp-title">Send a Message</h2>
+
+                    <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" id="name" required />
+                            </div>
+
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" id="email" required />
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+
+                        <button class="bp-btn">Send Message</button>
+                        <p id="form-message"></p>
+                    </form>
+                </div>
+
+                <!-- Right: Contact Info Box -->
+                <div class="contact-info-card bp-float">
+                    <h3 class="bp-subtitle">Contact Info</h3>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>akashofficial@gmail.com</p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91 9876543210</p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Mumbai, India</p>
+                    </div>
+
+                    <div class="info-social">
+                        <a><i class="fa-brands fa-github"></i></a>
+                        <a><i class="fa-brands fa-linkedin"></i></a>
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FOOTER  SECTION  -->
+        <footer class="blueprint-footer">
+            <h2 class="footer-logo">AKASH PORTFOLIO</h2>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="footer-bottom">© 2025 Akash — All Rights Reserved</p>
+        </footer>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
